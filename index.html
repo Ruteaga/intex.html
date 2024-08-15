@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploración Espacial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #002b36;
+            color: #eee8d5;
+        }
+        header {
+            background-color: #073642;
+            color: #93a1a1;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #586e75;
+        }
+        nav a {
+            color: #fdf6e3;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #657b83;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #b58900;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #073642;
+            border-radius: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+        footer {
+            background-color: #002b36;
+            color: #93a1a1;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .extra-content {
+            background-color: #586e75;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .extra-content h2 {
+            color: #fdf6e3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exploración Espacial</h1>
+    </header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#missions">Misiones Espaciales</a>
+        <a href="#planets">Planetas</a>
+        <a href="#images">Imágenes del Espacio</a>
+        <a href="#extra">Curiosidades</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Bienvenido a la Exploración Espacial</h2>
+            <p>¡Descubre el universo con nosotros! En esta página encontrarás información sobre misiones espaciales, planetas y deslumbrantes imágenes del espacio. Sumérgete en el fascinante mundo del cosmos.</p>
+        </section>
+        <section id="missions">
+            <h2>Misiones Espaciales</h2>
+            <p>Las misiones espaciales nos han ayudado a comprender mejor el cosmos. Aquí tienes algunas de las más importantes:</p>
+            <ul>
+                <li><strong>Apolo 11:</strong> La primera misión que llevó a los humanos a la Luna en 1969.</li>
+                <li><strong>Voyager 1:</strong> Lanzado en 1977, ha explorado los confines del sistema solar.</li>
+                <li><strong>Curiosity:</strong> Un rover en Marte que ha estado explorando el planeta rojo desde 2012.</li>
+            </ul>
+        </section>
+        <section id="planets">
+            <h2>Planetas del Sistema Solar</h2>
+            <p>Explora los planetas que componen nuestro sistema solar:</p>
+            <ul>
+                <li><strong>Mercurio:</strong> El planeta más cercano al Sol.</li>
+                <li><strong>Venus:</strong> Conocido por su atmósfera densa y cálida.</li>
+                <li><strong>Marte:</strong> El planeta rojo, objeto de muchas misiones espaciales.</li>
+                <li><strong>Júpiter:</strong> El planeta más grande del sistema solar.</li>
+                <li><strong>Saturno:</strong> Famoso por sus espectaculares anillos.</li>
+                <li><strong>Urano:</strong> Un gigante gaseoso con un eje de rotación único.</li>
+                <li><strong>Neptuno:</strong> El planeta más lejano, conocido por sus intensos vientos.</li>
+            </ul>
+        </section>
+        <section id="images">
+            <h2>Imágenes del Espacio</h2>
+            <p>Disfruta de algunas de las imágenes más impresionantes del espacio:</p>
+          
+            <img src="planetas.jpg">
+        </section>
+        <section id="extra" class="extra-content">
+            <h2>Curiosidades del Espacio</h2>
+            <p>¿Sabías que...?</p>
+            <ul>
+                <li>El espacio está completamente en silencio porque no hay aire para transportar las ondas sonoras.</li>
+                <li>Un día en Venus es más largo que un año en Venus.</li>
+                <li>La Vía Láctea es solo una de entre 100 mil millones de galaxias en el universo observable.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos.</p>
+            <form action="mailto:tu-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Exploración Espacial. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
